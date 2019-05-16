@@ -84,6 +84,33 @@ public class HiloClientHandler extends Thread{
 					.append("	background-image: url(\"https://i.imgur.com/oTVMMt4.jpg\");")
 //					https://wallpapercave.com/wp/wp3993632.jpg
 					.append("}")
+					
+					.append("table{")
+					.append("	border: 1px solid #000;\r\n" + 
+							"	border-collapse: collapse;\r\n" + 
+							"	width: 100%;	")
+					.append("}")
+					.append("table th{")
+					.append("	background: rgb(255,255,255);\r\n" + 
+							"	text-align: center;")
+					.append("}")
+					
+					.append("table td{")
+					.append("	border: 1px solid #000;\r\n" + 
+							"	padding: 20px;\r\n" + 
+							"	text-align: center;\r\n" + 
+							"	background-color: rgb(255,255,255);")
+					.append("}")
+					
+					.append("table tr:hover{")
+					.append("background: #ccc;")
+					.append("}")
+					
+					.append("table td:hover{")
+					.append("	background: 000;\r\n" + 
+							"	color: black")
+					.append("}")
+					
 					.append("</style>")
 					.append("</head>")
 					.append("<body>")
